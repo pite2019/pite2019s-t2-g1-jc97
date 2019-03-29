@@ -24,3 +24,4 @@ students.append(me)
 
 print("Average of " + studentA.firstname + " " + studentA.lastname + " in Magic (ignoring absents): " + str(studentA.average_in_class("Magic", True)))
 print("Average of " + studentA.firstname + " " + studentA.lastname + " in Magic (absent = 0): " + str(studentA.average_in_class("Magic", False)))
+print("Average of " + studentA.firstname + " " + studentA.lastname + " in all subjects (absent = 0): " + str(studentA.average_all_classes(False)))
